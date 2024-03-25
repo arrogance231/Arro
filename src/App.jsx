@@ -1,10 +1,9 @@
+import Nav from "./Nav/Nav"
 
-function App() {
+const App = () => {
   return (
     <main>
-      <section>
-        Nav
-      </section>
+      <Nav/>
       <section>
         Recommended
       </section>
